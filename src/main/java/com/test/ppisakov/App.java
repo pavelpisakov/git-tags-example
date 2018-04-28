@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class App {
 
-    private static final String VERSION = "v7.0";
+    private static final String VERSION = "v7.1";
 
     public static void main(String[] args) {
         new App().showVersion();
