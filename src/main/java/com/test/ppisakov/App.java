@@ -8,8 +8,14 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class App {
 
+    private static final String VERSION = "v7.0";
+
     public static void main(String[] args) {
-        log.info("Sanity test 2");
+        new App().showVersion();
+    }
+
+    public void showVersion() {
+        log.info("Sanity Search test :: {}", VERSION);
     }
 
 }
