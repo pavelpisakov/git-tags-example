@@ -1,13 +1,15 @@
 package com.test.ppisakov;
 
+import lombok.extern.slf4j.Slf4j;
+
 /**
  * Hello world!
- *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+@Slf4j
+public class App {
+
+    public static void main(String[] args) {
+        log.info("Hello World from Slf4j!");
     }
+
 }
